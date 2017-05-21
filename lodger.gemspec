@@ -23,9 +23,9 @@ Gem::Specification.new do |spec|
       "public gem pushes."
   end
 
-  spec.files         = %w( README.md LICENSE ) + Dir['lib/**/*.rb']
+  spec.files         = %w( README.md LICENSE.txt ) + Dir['lib/**/*.rb']
   spec.bindir        = "bin"
-  spec.executables   = %( lodger )
+  spec.executables   = %w( lodger )
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.14"
