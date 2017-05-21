@@ -1,8 +1,10 @@
 # Lodger
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/lodger`. To experiment with that code, run `bin/console` for an interactive prompt.
+Re-target your swift sourcefiles from Application target to Testtarget in your Xcode project.
 
-TODO: Delete this and the text above, and describe your gem
+
+Added testing source files to main application target wrongly?
+Lodger removes source files for testing (ex. FooTests.swift, BarMock.swift, BazStub.swift, etc) from main application target and add that files to main application target.
 
 ## Installation
 
@@ -22,17 +24,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```console
+$ lodger \
+        <xcodeproj_path> \
+        <production_target_name> \
+        <test_target_name>
+```
 
-## Development
+for example, 
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+```console
+$ lodger path/to/MyProject/MyProject.xcodeproj MyProject MyProjectTests
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Hiroshi Kikuchi/lodger. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kikuchy/lodger. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

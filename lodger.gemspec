@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["kikuchy"]
   spec.email         = ["kikuchy.h@gmail.com"]
 
-  spec.summary       = "Retarget swift codes production or test"
-  spec.description   = ""
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Retarget source files for testing from application target to testing target"
+  spec.description   = "Lodger removes source files for testing (ex. FooTests.swift, BarMock.swift, BazStub.swift, etc) from main application target and add that files to main application target."
+  spec.homepage      = "https://github.com/kikuchy/lodger"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
