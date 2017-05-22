@@ -1,3 +1,5 @@
+![Lodger](art/lodger_logo.png)
+
 # Lodger
 
 Re-target your swift sourcefiles from Application target to Testtarget in your Xcode project.
