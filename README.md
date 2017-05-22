@@ -49,3 +49,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/kikuch
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+Logo image's Pictgram-man (Picto-san) -> http://pictogram2.com/
